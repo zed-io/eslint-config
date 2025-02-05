@@ -1,6 +1,6 @@
 {
   "name": "@zed-io/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared ESLint configuration for zed-io organization",
   "main": "index.js",
   "peerDependencies": {
@@ -12,6 +12,10 @@
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-unused-imports": "^4.1.4"
   },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "keywords": [
     "eslint",
     "eslintconfig",
