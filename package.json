@@ -1,4 +1,23 @@
 {
-  "name": "eslint-config",
+  "name": "@zed/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared ESLint configuration for zed-io organization",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-unused-imports": "^4.1.4"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "zed"
+  ],
+  "author": "Matthew Abraham",
+  "license": "MIT",
   "packageManager": "yarn@4.3.1"
 }
