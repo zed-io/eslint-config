@@ -6,7 +6,8 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": "off", // Replaced by unused-imports
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': "error",
-    'import/order': "error"
+    'import/order': "error",
+    'import/no-unused-modules': [1, { unusedExports: true }],
   },
   env: {
     node: true,

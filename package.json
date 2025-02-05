@@ -1,5 +1,5 @@
 {
-  "name": "@zed/eslint-config",
+  "name": "@zed-io/eslint-config",
   "version": "1.0.0",
   "description": "Shared ESLint configuration for zed-io organization",
   "main": "index.js",
@@ -18,6 +18,13 @@
     "zed"
   ],
   "author": "Matthew Abraham",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zed-io/eslint-config.git"
+  },
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "packageManager": "yarn@4.3.1"
 }
